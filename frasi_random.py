@@ -1,0 +1,1 @@
+frasi = ["／(=✪ x ✪=)＼ Sembra buono vero?", "ᕙ(⇀‸↼‶)ᕗ Non fare il tirchio!", "( •_•) Mangiatelo.", "꒰(･‿･)꒱ Buon appetito!", " ๑(◕‿◕)๑ Enjoy!", "(ᵒ̴̶̷̤́◞౪◟ ᵒ̴̶̷̤̀ ) Non mangiare troppo!", "(；☉_☉) Come ti sembra...?", "（ΦωΦ） mmmmmh!", "´･ᴗ･` Gustatelooo!", "(⁀ᗢ⁀) Buono eh?"]
