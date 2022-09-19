@@ -59,24 +59,31 @@ def randomizzatore():
 
 	random_1 = random.choice(proteine_li)
 	random_2 = random.choice(contorni_li)
-	random_3 = random.choice(salse_li)
+	random_3 = random.choice(contorni_li)
+	random_4 = random.choice(salse_li)
 	random_phrase = random.choice(frasi)
 	
-	print (random_1 + random_2 + random_3 + random_phrase)
+	print (random_1 + random_2 + random_3 + random_4 + random_phrase)
 	return 1
 	
 	
 print(f"{bcolors.CYAN}LUNEDI: {bcolors.END}")
 randomizzatore()
+randomizzatore()
 print(f"{bcolors.CYAN}MARTEDI: {bcolors.END}")
+randomizzatore()
 randomizzatore()
 print(f"{bcolors.CYAN}MERCOLEDI: {bcolors.END}")
 randomizzatore()
+randomizzatore()
 print(f"{bcolors.CYAN}GIOVEDI: {bcolors.END}")
+randomizzatore()
 randomizzatore()
 print(f"{bcolors.CYAN}SABATO: {bcolors.END}")
 randomizzatore()
+randomizzatore()
 print(f"{bcolors.CYAN}DOMENICA: {bcolors.END}")
+randomizzatore()
 randomizzatore()
 
 print (" \n")
