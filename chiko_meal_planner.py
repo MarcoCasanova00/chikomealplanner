@@ -63,7 +63,7 @@ def randomizzatore():
 	
 	print (random_1.nome + random_2.nome + random_3.nome + random_4.nome + random_phrase)
 	costo = (math.ceil(random_1.prezzo) + math.ceil(random_2.prezzo) + math.ceil(random_3.prezzo))
-	print ("Il prezzo totale, escluse le salse, sara' di circa " + str(costo) + " Euro. \n") 
+	print ("⛃ Il prezzo totale, escluse le salse, sara' di circa " + str(costo) + " Euro. \n") 
 
 	
 	return 1
