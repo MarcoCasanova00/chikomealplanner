@@ -1,83 +1,62 @@
-class Proteine:
-	def ___init___(self, nome, prezzo):
+class Proteina:
+	def __init__(self, nome, prezzo):
 		self.nome = nome
 		self.prezzo = prezzo
+	pass
 		
+	
 class Contorni:
-	def ___init___(self, nome, prezzo):
+	def __init__(self, nome, prezzo):
 		self.nome = nome
 		self.prezzo = prezzo
-		
+	pass
+	
 class Salse:
-	def ___init___(self, nome, prezzo):
+	def __init__(self, nome, prezzo):
 		self.nome = nome
 		self.prezzo = prezzo
-		
-		
+	pass
+	
 # PROTEINE
-p1 = Proteine()
-p1.nome = "Salmone, "
-p1.prezzo = 3.50
+p1 = Proteina("Salmone, ", 3.50)
 
-p2 = Proteine()
-p2.nome = "Tonno, "
-p2.prezzo = 3.50
+p2 = Proteina("Tonno, ", 2.80)
 
-p3 = Proteine()
-p3.nome = "Gamberetti, "
-p3.prezzo = 1.50
+p3 = Proteina("Tofu, ", 1.50)
 
-p4 = Proteine()
-p4.nome = "Fagioli, "
-p4.prezzo = 0.50
+p4 = Proteina("Surimi, ", 1.60)
 
-p5 = Proteine()
-p5.nome = "Lenticchie, "
-p5.prezzo = 0.50
+p5 = Proteina("Fagioli, ", 0.65)
 
-p6 = Proteine()
-p6.nome = "Ceci, "
-p6.prezzo = 0.50
+p6 = Proteina("Ceci, ", 0.80)
+
+p7 = Proteina("Pollo, ", 4.50)
+
+p8 = Proteina("Lenticchie, ", 0.60)
+
+p9 = Proteina("Maiale, ", 2.50)
+
+p10 = Proteina("Carne o Pesce, ", 5.50)
+
+
 
 
 # CONTORNI
-c1 = Contorni()
-c1.nome = "Insalata Verde, "
-c1.prezzo = 1.20
-
-c2 = Contorni()
-c2.nome = "Insalata Rossa, "
-c2.prezzo = 1.20
-
-c3 = Contorni()
-c3.nome = "Alghe, "
-c3.prezzo = 2.80
-
-c4 = Contorni()
-c4.nome = "Ravanelli, "
-c4.prezzo = 1.20
-
-c5 = Contorni()
-c5.nome = "Pomodorini, "
-c5.prezzo = 0.80
-
-c6 = Contorni()
-c6.nome = "Zucchine, "
-c6.prezzo = 0.50
+c1 = Contorni("Insalata, ", 0.60)
+c2 = Contorni("Broccoli, ", 1.20)
+c3 = Contorni("Alghe, ", 1.80)
+c4 = Contorni("Ravanelli, ", 1.00)
+c5 = Contorni("Pomodorini, ", 0.80)
+c6 = Contorni("Zucchine, ", 0.70)
 
 
 # SALSE
-s1 = Salse()
-s1.nome = "Maionese, "
-s1.prezzo = 4.20
+s1 = Salse("Mayonese, ", 4.50)
 
-s2 = Salse()
-s2.nome = "Soya Wasabi, "
-s2.prezzo = 3.80
+s2 = Salse("Soya Wasabi, ", 6.50)
 
-s3 = Salse()
-s3.nome = "Sweet Chili, "
-s3.prezzo = 4.20
+s3 = Salse("Sweet Chili, ", 8.50)
+
 
 
 

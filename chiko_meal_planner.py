@@ -1,4 +1,5 @@
 import random
+import math
 
 from ingredienti import *
 from frasi_random import *
@@ -49,13 +50,9 @@ def randomizzatore():
 
 	# LISTE DI TUTTO PER RANDOMIZZATORE
 
-	proteine_li = [p1.nome, p2.nome, p3.nome, p4.nome, p5.nome, p6.nome]
-	contorni_li = [c1.nome, c2.nome, c3.nome, c4.nome, c5.nome, c6.nome]
-	salse_li = [s1.nome, s2.nome, s3.nome]
-	
-	#proteine_pr = [p1.prezzo, p2.prezzo, p3.prezzo, p4.prezzo, p5.prezzo, p6.prezzo]
-	#contorni_pr = [c1.prezzo, c2.prezzo, c3.prezzo, c4.prezzo, c5.prezzo, c6.prezzo]
-	#salse_pr = [s1.prezzo, s2.prezzo, s3.prezzo]
+	proteine_li = [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10]
+	contorni_li = [c1, c2, c3, c4, c5, c6]
+	salse_li = [s1, s2, s3]
 
 	random_1 = random.choice(proteine_li)
 	random_2 = random.choice(contorni_li)
@@ -63,7 +60,12 @@ def randomizzatore():
 	random_4 = random.choice(salse_li)
 	random_phrase = random.choice(frasi)
 	
-	print (random_1 + random_2 + random_3 + random_4 + random_phrase)
+	
+	print (random_1.nome + random_2.nome + random_3.nome + random_4.nome + random_phrase)
+	costo = (math.ceil(random_1.prezzo) + math.ceil(random_2.prezzo) + math.ceil(random_3.prezzo))
+	print ("Il prezzo totale, escluse le salse, sara' di circa " + str(costo) + " Euro. \n") 
+
+	
 	return 1
 	
 	
@@ -90,6 +92,5 @@ print (" \n")
 print (f"{bcolors.YELLOW} >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< {bcolors.END} ")
 
 
-# TODO Devi implementare il fatto dei prezzi!
 
 
